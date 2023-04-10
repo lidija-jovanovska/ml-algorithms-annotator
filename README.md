@@ -10,7 +10,9 @@ git push -uf origin main
 
 ## Description
 
-The Annotator provides a web interface where users can input informations about algorithms and query the database.
+The ML Algorithms Annotator is a Django application which enables users to annotate and query ML algorithms. The algorithms information is based on an annotation schema and it includes entities like "Document", "Optimization Problem", "Complexity", etc. Additionally, the user can query the graph database containing multiple PoC algorithms like Linear Regreession, SVC, KNN, etc.
+
+The entire development process is documented in my Masters thesis: https://drive.google.com/file/d/1vyV6YlN47wOhkFUvjNq_JC63hnleZo9y/view?usp=sharing
 
 
 ## Badges
