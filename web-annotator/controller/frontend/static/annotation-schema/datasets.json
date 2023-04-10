@@ -1,0 +1,187 @@
+[
+  {
+    "label": "labeled dataset",
+    "tagClassName": "special",
+    "children": [
+      {
+        "label": "completely labeled dataset",
+        "children": [
+          {
+            "label": "completely labeled dataset with primitive output",
+            "children": [
+              {
+                "label": "feature-based completely labeled dataset with primitive output",
+                "children": [
+                  {
+                    "label": "flat classification dataset",
+                    "children": [
+                      {
+                        "label": "binary classification dataset"
+                      },
+                      {
+                        "label": "multi-class classification dataset"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "regression dataset"
+                  }
+                ]
+              },
+              {
+                "label": "structure-based completely labeled dataset with primitive output"
+              }
+            ]
+          },
+          {
+            "label": "completely labeled dataset with structured output",
+            "children": [
+              {
+                "label": "feature-based completely labeled dataset with structured output",
+                "children": [
+                  {
+                    "label": "feature-based time-series prediction dataset"
+                  },
+                  {
+                    "label": "hierarchical classification dataset",
+                    "children": [
+                      {
+                        "label": "DAG-based hierarchical classification dataset"
+                      },
+                      {
+                        "label": "tree-based hierarchical classification dataset"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "multi-label classification dataset"
+                  },
+                  {
+                    "label": "multi-target prediction dataset",
+                    "children": [
+                      {
+                        "label": "multi-target classification dataset",
+                        "children": [
+                          {
+                            "label": "multi-target binary classification dataset"
+                          },
+                          {
+                            "label": "multi-target multi-class classification dataset"
+                          }
+                        ]
+                      },
+                      {
+                        "label": "multi-target regression dataset"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "structure-based completely labeled dataset with structured output"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "partially labeled dataset"
+      },
+      {
+        "label": "semi-labeled dataset",
+        "children": [
+          {
+            "label": "semi-labeled dataset with primitive output",
+            "children": [
+              {
+                "label": "feature-based semi-labeled dataset with primitive output",
+                "children": [
+                  {
+                    "label": "flat semi-labeled classification dataset",
+                    "children": [
+                      {
+                        "label": "binary semi-labeled classification dataset"
+                      },
+                      {
+                        "label": "multi-class semi-labeled classification dataset"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "semi-labeled regression dataset"
+                  }
+                ]
+              },
+              {
+                "label": "structure-based semi-labeled dataset with primitive output"
+              }
+            ]
+          },
+          {
+            "label": "semi-labeled dataset with structured output",
+            "children": [
+              {
+                "label": "feature-based semi-labeled dataset with structured output",
+                "children": [
+                  {
+                    "label": "feature-based time-series semi-labeled prediction dataset"
+                  },
+                  {
+                    "label": "hierarchical semi-labeled classification dataset",
+                    "children": [
+                      {
+                        "label": "DAG-based hierarchical semi-labeled classification dataset"
+                      },
+                      {
+                        "label": "tree-based hierarchical semi-labeled classification dataset"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "multi-label semi-labeled classification dataset"
+                  },
+                  {
+                    "label": "multi-target semi-labeled prediction dataset",
+                    "children": [
+                      {
+                        "label": "multi-target semi-labeled classification dataset",
+                        "children": [
+                          {
+                            "label": "multi-target semi-labeled binary classification dataset"
+                          },
+                          {
+                            "label": "multi-target semi-labeled multi-class classification dataset"
+                          }
+                        ]
+                      },
+                      {
+                        "label": "multi-target semi-labeled regression dataset"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "structure-based semi-labeled dataset with structured output"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "unlabeled dataset",
+    "children": [
+      {
+        "label": "feature-based unlabeled dataset"
+      },
+      {
+        "label": "structure-based unlabeled dataset"
+      },
+      {
+        "label": "transactional dataset"
+      }
+    ]
+  }
+]

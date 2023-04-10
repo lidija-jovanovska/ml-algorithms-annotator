@@ -1,0 +1,22 @@
+[
+  {
+    "label": "single generalization algorithm"
+  },
+  {
+    "label": "ensemble algorithm",
+    "children": [
+      {
+        "label": "bagging"
+      },
+      {
+        "label": "boosting"
+      },
+      {
+        "label": "voting"
+      },
+      {
+        "label": "stacking"
+      }
+    ]
+  }
+]

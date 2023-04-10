@@ -1,0 +1,114 @@
+[
+  {
+    "label": "ensemble specification",
+    "value": "",
+    "children": [
+      {
+        "label": "clusterings ensemble specification",
+        "value": ""
+      },
+      {
+        "label": "pattern set ensemble specification",
+        "value": ""
+      },
+      {
+        "label": "predictive models ensemble specification",
+        "value": ""
+      },
+      {
+        "label": "probability distributions ensemble specification",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "label": "single generalization specification",
+    "value": "",
+    "children": [
+     {
+       "label": "clustering specification",
+       "value": ""
+     },
+      {
+        "label": "pattern specification",
+        "value": ""
+      },
+      {
+        "label": "probability distribution specification",
+        "value": ""
+      },
+      {
+        "label": "predictive model specification",
+        "value": "",
+        "children": [
+          {
+            "label": "predictive model for primitive output",
+            "value": "",
+            "children": [
+              {
+                "label": "feature-based predictive model for primitive output",
+                "value": "",
+                "children": [
+                  {
+                    "label": "classification model",
+                    "value": "",
+                    "children": [
+                      {
+                        "label": "binary classification model",
+                        "value": ""
+                      },
+                      {
+                        "label": "multi-class classification model",
+                        "value": ""
+                      }
+                    ]
+                  },
+                  {
+                    "label": "regression model",
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "label": "structure-based predictive model for primitive output",
+                "value": ""
+              }
+            ]
+          },
+          {
+            "label": "predictive model for structured output",
+            "value": "",
+            "children": [
+              {
+                "label": "feature-based predictive model for structured output",
+                "value": "",
+                "children": [
+                  {
+                    "label": "hierarchical classification model",
+                    "value": ""
+                  },
+                  {
+                    "label": "multi-label classification model",
+                    "value": ""
+                  },
+                  {
+                    "label": "multi-target classification model",
+                    "value": ""
+                  },
+                  {
+                    "label": "time series prediction model",
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "label": "structure-based predictive model for structured output",
+                "value": ""
+              }
+            ]
+          }
+        ]
+      }
+   ]
+  }
+]

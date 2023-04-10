@@ -1,0 +1,127 @@
+[
+  {
+    "label": "supervised primitive output prediction task",
+    "tagClassName": "special",
+    "children": [
+      {
+        "label": "supervised feature-based primitive output prediction task",
+        "children": [
+          {
+            "label": "supervised flat classification task",
+            "children": [
+              {
+                "label": "supervised binary classification task"
+              },
+              {
+                "label": "supervised multi-class classification task"
+              }
+            ]
+          },
+          {
+            "label": "supervised regression task"
+          }
+        ]
+      },
+      {
+        "label": "supervised structure based primitive output prediction task"
+      }
+    ]
+  },
+  {
+    "label": "supervised structured output prediction task",
+    "children": [
+      {
+        "label": "supervised feature-based structured output prediction task",
+        "children": [
+          {
+            "label": "supervised hierarchical classification task",
+            "children": [
+              {
+                "label": "supervised DAG based hierarchical classification task",
+                "children": [
+                  {
+                    "label": "DAG based hierarchical classification task with multiple label paths",
+                    "children": [
+                      {
+                        "label": "DAG based hierarchical classification task with multiple label paths and full depth labeling"
+                      },
+                      {
+                        "label": "DAG based hierarchical classification task with multiple label paths and partial depth labeling"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "DAG based hierarchical classification task with single label paths",
+                    "children": [
+                      {
+                        "label": "DAG based hierarchical classification task with single label paths and full depth labeling"
+                      },
+                      {
+                        "label": "DAG based hierarchical classification task with single label paths and partial depth labeling"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "label": "supervised tree-based hierarchical classification task",
+                "children": [
+                  {
+                    "label": "tree-based hierarchical classification task with multiple label paths",
+                    "children": [
+                      {
+                        "label": "tree-based hierarchical classification task with multiple label paths and full depth labeling"
+                      },
+                      {
+                        "label": "tree-based hierarchical classification task with multiple label paths and partial depth labeling"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "tree-based hierarchical classification task with single label paths",
+                    "children": [
+                      {
+                        "label": "tree-based hierarchical classification task with single label paths and full depth labeling"
+                      },
+                      {
+                        "label": "tree-based hierarchical classification task with single label paths and partial depth labeling"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "label": "supervised multi-label classification task"
+          },
+          {
+            "label": "supervised multi-target prediction task",
+            "children": [
+              {
+                "label": "supervised multi-target classification task",
+                "children": [
+                  {
+                    "label": "supervised multi-target binary classification"
+                  },
+                  {
+                    "label": "supervised multi-target multi-class classification task"
+                  }
+                ]
+              },
+              {
+                "label": "supervised multi-target regression task"
+              }
+            ]
+          },
+          {
+            "label": "supervised time-series prediction task"
+          }
+        ]
+      },
+      {
+        "label": "supervised structure based structured output prediction task"
+      }
+    ]
+  }
+]

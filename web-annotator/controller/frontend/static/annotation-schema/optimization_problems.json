@@ -1,0 +1,120 @@
+[
+  {
+    "label": "Uncertainty",
+    "tagClassName": "special",
+    "children": [
+      {
+        "label": "Stochastic Programming"
+      },
+      {
+        "label": "Robust Optimization"
+      }
+    ]
+  },
+  {
+    "label": "Deterministic",
+    "children": [
+      {
+        "label": "Continuous",
+        "children": [
+          {
+            "label": "Unconstrained",
+            "children": [
+              {
+                "label": "Nonlinear Least Squares"
+              },
+              {
+                "label": "Nonlinear Equations"
+              },
+              {
+                "label": "Nondifferentiable Optimization"
+              },
+              {
+                "label": "Global Optimization"
+              }
+            ]
+          },
+          {
+            "label": "Constrained",
+            "children": [
+              {
+                "label": "Nondifferentiable Optimization"
+              },
+              {
+                "label": "Global Optimization"
+              },
+              {
+                "label": "Nonlinear Programming",
+                "children": [
+                  {
+                    "label": "Semi-definite Programming",
+                    "children": [
+                      {
+                        "label": "Second-Order Cone Programming",
+                        "children": [
+                          {
+                            "label": "Quadratically-Constrained Quadratic Programming"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Semi-infinite Programming"
+                  },
+                  {
+                    "label": "Mathematical Programs with Equilibrium Constraints",
+                    "children": [
+                      {
+                        "label": "Complementarity Problems"
+                      }
+                    ]
+                  },
+                  {
+                    "label": "Mixed Integer Nonlinear Programming"
+                  }
+                ]
+              },
+              {
+                "label": "Network Optimization"
+              },
+              {
+                "label": "Bound Constrained",
+                "children": [
+                  {
+                    "label": "Derivative-Free Optimization"
+                  }
+                ]
+              },
+              {
+                "label": "Linearly Constrained",
+                "children": [
+                  {
+                    "label": "Quadratic Programming"
+                  },
+                  {
+                    "label": "Linear Programming"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Discrete",
+        "children": [
+          {
+            "label": "Integer Programming"
+          },
+          {
+            "label": "Combinatorial Optimization"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "label": "Multiobjective Optimization"
+  }
+]
